@@ -18,7 +18,8 @@
     "Lluis Agusti <hi@llu.lu>"
   ],
   "dependencies": {
-    "next": "latest",
+    "eslint-config-next": "^13.4.4",
+    "next": "^13.4.4",
     "next-auth": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -28,9 +29,8 @@
     "@types/react": "^18.2.0",
     "typescript": "^5.0.4"
   },
-
-  "engines" : { 
-    "node" : ">=14.0.0 <19.0.0",
+  "engines": {
+    "node": ">=14.0.0 <19.0.0",
     "yarn": "1.22.x",
     "npm": "off"
   }
